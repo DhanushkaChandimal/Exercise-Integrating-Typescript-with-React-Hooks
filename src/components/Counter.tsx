@@ -4,7 +4,12 @@ const Counter = () => {
     const [count, setCount] = useState(0)
 
     return(
-        <div>{count}</div>
+        <div>
+            <p>{count}</p>
+            <button>Increment</button>
+            <button>Decrement</button>
+            <button>Multiply by 10</button>
+        </div>
     );
 }
 
