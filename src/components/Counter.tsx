@@ -6,9 +6,9 @@ const Counter = () => {
     return(
         <div>
             <p>{count}</p>
-            <button>Increment</button>
-            <button>Decrement</button>
-            <button>Multiply by 10</button>
+            <button onClick={() => setCount(count+1)}>Increment</button>
+            <button onClick={() => setCount(count-1)}>Decrement</button>
+            <button onClick={() => setCount(count*10)}>Multiply by 10</button>
         </div>
     );
 }
